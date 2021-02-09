@@ -64,6 +64,7 @@ router.post(
 
       await user.save();
 
+      //JWToken
       const payload = {
         user: { id: user.id },
       };
